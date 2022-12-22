@@ -117,7 +117,9 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:STARTER_ASSETS_PACKAGES_CHECKED
 -define:PACKAGE_PHYSICS
 -define:PACKAGE_PHYSICS2D
 -define:PACKAGE_TILEMAP
@@ -125,6 +127,7 @@
 -define:PACKAGE_UITOOLKIT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/StarterAssets/Editor/PackageChecker/StarterAssetsPackageChecker.dll"
 -r:"D:/Unity/2021.3.10f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"D:/Unity/2021.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/Unity/2021.3.10f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
